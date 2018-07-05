@@ -1,4 +1,6 @@
 @import "utils.css";
+@import "http://fonts.fontstorage.com/import/lato.css";
+@import "http://fonts.fontstorage.com/import/butlerstencil.css";
 
 html, body {
 	height: 100%;
@@ -13,7 +15,30 @@ body {
 	font-size: 1.6rem; /* 10px * 1.6 = 16px */
 }
 
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
 
+/*
+font-family: 'Lato';
+font-family: 'Butler Stencil';
+*/
+
+/* Header */
+.main-header {
+	height: 846px;
+	background: url('../img/bg/background-image-01.jpg') no-repeat top center;
+	background-size: cover;
+}
+
+.header-contacts {
+	padding-top: 23px;
+	padding-bottom: 22px;
+	max-height: 60px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	font-family: 'Lato';
+}
 
 
 /*==========  Desktop First Method  ==========*/
